@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="183.0" prefWidth="451.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AlertController">
+   <children>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" prefHeight="119.0" prefWidth="447.0" text="Label" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="ok" alignment="CENTER" defaultButton="true"  contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindow" prefHeight="49.0" prefWidth="84.0" text="Got IT" />
+   </children>
+   
+</VBox>
